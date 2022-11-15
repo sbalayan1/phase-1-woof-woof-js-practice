@@ -30,7 +30,6 @@ function renderDog(dog) {
 
 function renderDogInfo(dog) {
     const container = document.getElementById('dog-info')
-
     container.textContent = ""
     const image = document.createElement('img')
     const header = document.createElement('h2')
